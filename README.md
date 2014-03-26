@@ -18,6 +18,8 @@ And then execute:
 
 ## Usage
 
+First go to [Space notifications](https://space-notice.com/), create project like 'Facebook deploy' and get project token.
+
 Add to your deploy.rb file
 
 ```ruby
