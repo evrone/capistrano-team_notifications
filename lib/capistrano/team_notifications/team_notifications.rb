@@ -12,11 +12,11 @@ module Capistrano
         after 'deploy:migrations', 'team_notifications:finished'
 
         at_exit do
-          log = fetch(:full_log)
+          # log = fetch(:full_log)
 
-          if log.include?("rolling back")
-            team_notify "%{deployer} FAILED to deploy %{application}#{': '+branch if branch} to %{stage}"
-          end
+          # if log.include?("rolling back")
+          #   team_notify "%{deployer} FAILED to deploy %{application}#{': '+branch if branch} to %{stage}"
+          # end
         end
 
         namespace :team_notifications do
