@@ -29,7 +29,7 @@ set :team_notifications_token, "HERE_YOUR_SPACE_NOTIFICATIONS_TOKEN"
 
 And finally give this link
 
-    https://space-notice.com/s?token=HERE_YOUR_SPACE_NOTIFICATIONS_TOKEN
+    https://space-notice.com/auth/github?token=TOKEN
 
 to your team members and ask them to open it in Safari 7 or above.
 
