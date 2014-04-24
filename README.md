@@ -20,10 +20,15 @@ And then execute:
 
 First go to [Space notifications](https://space-notice.com/), create project like 'Facebook deploy' and get project token.
 
-Add to your deploy.rb file
+Add to Capfile
 
 ```ruby
 require 'capistrano/team_notifications'
+```
+
+add to deploy.rb file
+
+```ruby
 set :team_notifications_token, "HERE_YOUR_SPACE_NOTIFICATIONS_TOKEN"
 ```
 
@@ -32,7 +37,6 @@ And finally give this link
     https://space-notice.com/auth/github?token=TOKEN
 
 to your team members and ask them to open it in Safari 7 or above.
-
 
 ## Contributing
 
