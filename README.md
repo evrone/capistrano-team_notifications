@@ -1,3 +1,5 @@
+[![Code Climate](https://codeclimate.com/github/evrone/capistrano-team_notifications.png)](https://codeclimate.com/github/evrone/capistrano-team_notifications)
+
 # Capistrano::TeamNotifications
 
 This gem sends notifications for all team members via [Space notifications](https://space-notice.com/) and OSX Notification Center.
