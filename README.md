@@ -2,6 +2,8 @@
 
 This gem sends notifications for all team members via [Space notifications](https://space-notice.com/) and OSX Notification Center.
 
+![](images/screenshot.png)
+
 ## Installation
 
 Add this line to your application's Gemfile:
