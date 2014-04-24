@@ -44,7 +44,7 @@ to your team members and ask them to open it in Safari 7 or above.
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/capistrano-team_notifications/fork )
+1. Fork it ( https://github.com/evrone/capistrano-team_notifications/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
