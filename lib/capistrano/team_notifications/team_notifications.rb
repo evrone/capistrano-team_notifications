@@ -45,6 +45,7 @@ module Capistrano
           http.use_ssl = true
           http.verify_mode = OpenSSL::SSL::VERIFY_NONE
           http.post("/p/#{team_notifications_token}", "message=#{message}")
+        rescue Net::ReadTimeout
         end
 
         def branch
