@@ -16,14 +16,6 @@ and OSX Notification Center.
 ![](images/screenshot.png)
 
 ## Getting Started
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
 ### Installation
 
 Add this line to your application's Gemfile:
