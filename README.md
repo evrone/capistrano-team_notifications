@@ -1,12 +1,30 @@
-[![Code Climate](https://codeclimate.com/github/evrone/capistrano-team_notifications.png)](https://codeclimate.com/github/evrone/capistrano-team_notifications)
-
+# PLEASE NOTE, THIS PROJECT IS NO LONGER BEING MAINTAINED
 # Capistrano::TeamNotifications
 
-This gem sends notifications for all team members via [Space notifications](https://space-notice.com/) and OSX Notification Center.
+[![Code Climate](https://codeclimate.com/github/evrone/capistrano-team_notifications.png)](https://codeclimate.com/github/evrone/capistrano-team_notifications)
+
+This gem sends notifications for all team members via [Space notifications](https://space-notice.com/) 
+and OSX Notification Center.
+
+<a href="https://evrone.com/?utm_source=github.com">
+  <img src="https://evrone.com/logo/evrone-sponsored-logo.png"
+       alt="Sponsored by Evrone" width="231">
+</a>
+
+## Demo
 
 ![](images/screenshot.png)
 
-## Installation
+## Getting Started
+### Prerequisites
+
+What things you need to install the software and how to install them
+
+```
+Give examples
+```
+
+### Installation
 
 Add this line to your application's Gemfile:
 
@@ -19,8 +37,8 @@ or if you use Capistrano v2
 And then execute:
 
     $ bundle
-
-## Usage
+    
+### Usage
 
 First go to [Space notifications](https://space-notice.com/), create project like 'Facebook deploy' and get project token.
 
@@ -44,8 +62,20 @@ to your team members and ask them to open it in Safari 7 or above.
 
 ## Contributing
 
-1. Fork it ( https://github.com/evrone/capistrano-team_notifications/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+Please read [Code of Conduct](CODE-OF-CONDUCT.md) and [Contributing Guidelines](CONTRIBUTING.md) 
+for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, 
+see the [tags on this repository](https://github.com/evrone/capistrano-team_notifications/tags). 
+
+## Authors
+
+* [Alexander Balashov](https://github.com/divineforest) - *Initial work*
+
+See also the list of [contributors](https://github.com/evrone/capistrano-team_notifications/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
